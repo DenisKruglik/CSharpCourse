@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{049A66F3-A0CB-48E6-8B37-B37C3E97EDFD}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{D7148632-9B9C-41F4-A215-30438289BE16}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sorting</RootNamespace>
-    <AssemblyName>Sorting</AssemblyName>
+    <RootNamespace>SortingConsoleInterface</RootNamespace>
+    <AssemblyName>SortingConsoleInterface</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -38,9 +38,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Service.cs" />
-    <Compile Include="Sorting.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sorting\Sorting.csproj">
+      <Project>{049a66f3-a0cb-48e6-8b37-b37c3e97edfd}</Project>
+      <Name>Sorting</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
