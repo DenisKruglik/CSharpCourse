@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting.Tests", "Sorting.Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingConsoleInterface", "SortingConsoleInterface\SortingConsoleInterface.csproj", "{D7148632-9B9C-41F4-A215-30438289BE16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayTransformation", "ArrayTransformation\ArrayTransformation.csproj", "{29E17C70-B2F0-411D-A154-8883966AD9BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayTransformation.Tests", "ArrayTransformation.Tests\ArrayTransformation.Tests.csproj", "{ADEA1EE5-724F-49CE-8AB9-F83B7EC5F91C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{D7148632-9B9C-41F4-A215-30438289BE16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7148632-9B9C-41F4-A215-30438289BE16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7148632-9B9C-41F4-A215-30438289BE16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E17C70-B2F0-411D-A154-8883966AD9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E17C70-B2F0-411D-A154-8883966AD9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E17C70-B2F0-411D-A154-8883966AD9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E17C70-B2F0-411D-A154-8883966AD9BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEA1EE5-724F-49CE-8AB9-F83B7EC5F91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEA1EE5-724F-49CE-8AB9-F83B7EC5F91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEA1EE5-724F-49CE-8AB9-F83B7EC5F91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEA1EE5-724F-49CE-8AB9-F83B7EC5F91C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

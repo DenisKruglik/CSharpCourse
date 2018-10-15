@@ -24,7 +24,8 @@ namespace SortingConsoleInterface
                 Console.Out.WriteLine("{0}. {1}", ++i, option);
             }
 
-            int chosen = GetIntFromInput(num => num >= 0 && num < options.Length);
+            int chosen = GetIntFromInput(num => num-1 >= 0 && num-1 < options.Length);
+            chosen -= 1;
 
             return options[chosen];
         }
